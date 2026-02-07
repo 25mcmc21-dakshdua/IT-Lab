@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minimal To-Do List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h2>Task Master</h2>
+        
+        <div class="input-group">
+            <input type="text" id="taskInput" placeholder="What needs to be done?">
+            <input type="date" id="dateInput">
+            <button id="addBtn">Add Task</button>
+        </div>
+
+        <div class="filters">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="pending">Pending</button>
+            <button class="filter-btn" data-filter="completed">Done</button>
+        </div>
+
+        <div id="taskList"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
