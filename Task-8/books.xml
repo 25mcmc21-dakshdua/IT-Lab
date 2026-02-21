@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+    <book id="1">
+        <title>Malgudi Ke Din</title>
+        <author>R. K. Narayan</author>
+        <genre>Fiction</genre>
+        <price>1100</price>
+        <currency>INR</currency>
+        <publication_date>1943-01-15</publication_date>
+    </book>
+    <book id="2">
+        <title>Godaan</title>
+        <author>Munshi Premchand</author>
+        <genre>Classic</genre>
+        <price>930</price>
+        <currency>INR</currency>
+        <publication_date>1936-03-10</publication_date>
+    </book>
+    <book id="3">
+        <title>Chitralekha</title>
+        <author>Bhagwati Charan Verma</author>
+        <genre>Romance</genre>
+        <price>975</price>
+        <currency>INR</currency>
+        <publication_date>1934-05-20</publication_date>
+    </book>
+    <book id="4">
+        <title>The Sacred Games</title>
+        <author>Vikram Chandra</author>
+        <genre>Thriller</genre>
+        <price>1360</price>
+        <currency>INR</currency>
+        <publication_date>2006-07-01</publication_date>
+    </book>
+    <book id="5">
+        <title>Indica</title>
+        <author>Amish Tripathi</author>
+        <genre>Mythology</genre>
+        <price>1275</price>
+        <currency>INR</currency>
+        <publication_date>2015-02-12</publication_date>
+    </book>
+    <book id="6">
+        <title>Jheel Ke Teen Kinare</title>
+        <author>Gulzar</author>
+        <genre>Poetry</genre>
+        <price>760</price>
+        <currency>INR</currency>
+        <publication_date>2012-11-05</publication_date>
+    </book>
+    <book id="7">
+        <title>Karmabhoomi</title>
+        <author>Munshi Premchand</author>
+        <genre>Classic</genre>
+        <price>850</price>
+        <currency>INR</currency>
+        <publication_date>1932-04-18</publication_date>
+    </book>
+    <book id="8">
+        <title>A Suitable Boy</title>
+        <author>Vikram Seth</author>
+        <genre>Literary Fiction</genre>
+        <price>1700</price>
+        <currency>INR</currency>
+        <publication_date>1993-03-01</publication_date>
+    </book>
+    <book id="9">
+        <title>Pinjar</title>
+        <author>Amrita Pritam</author>
+        <genre>Historical Fiction</genre>
+        <price>1020</price>
+        <currency>INR</currency>
+        <publication_date>1950-08-22</publication_date>
+    </book>
+    <book id="10">
+        <title>Nagamandala</title>
+        <author>Girish Karnad</author>
+        <genre>Drama</genre>
+        <price>890</price>
+        <currency>INR</currency>
+        <publication_date>1988-12-10</publication_date>
+    </book>
+    <book id="11">
+        <title>Chandni Bar</title>
+        <author>Musharraf Alam Zauqui</author>
+        <genre>Crime</genre>
+        <price>1190</price>
+        <currency>INR</currency>
+        <publication_date>2018-09-14</publication_date>
+    </book>
+    <book id="12">
+        <title>Svapnavasavadattam</title>
+        <author>Bhasa</author>
+        <genre>Classical Drama</genre>
+        <price>680</price>
+        <currency>INR</currency>
+        <publication_date>0400-01-01</publication_date>
+    </book>
+    <book id="13">
+        <title>Nalapat</title>
+        <author>M. T. Vasudevan Nair</author>
+        <genre>Regional Literature</genre>
+        <price>850</price>
+        <currency>INR</currency>
+        <publication_date>1958-07-19</publication_date>
+    </book>
+    <book id="14">
+        <title>Chidambara Rahasya</title>
+        <author>Kalki Krishnamurthy</author>
+        <genre>Mystery</genre>
+        <price>1100</price>
+        <currency>INR</currency>
+        <publication_date>1965-05-30</publication_date>
+    </book>
+    <book id="15">
+        <title>Gunahon Ka Devta</title>
+        <author>Dharamvir Bharati</author>
+        <genre>Romance</genre>
+        <price>930</price>
+        <currency>INR</currency>
+        <publication_date>1949-11-11</publication_date>
+    </book>
+</catalog>

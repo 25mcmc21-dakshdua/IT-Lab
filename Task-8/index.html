@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XML to JSON Book Catalog</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="card">
+        <h2> Kitabon Ki List: XML → JSON → Filterable Table</h2>
+        
+        <div class="filters">
+            <div class="filter-group">
+                <label for="genreFilter">Genre (Kism)</label>
+                <select id="genreFilter">
+                    <option value="all">Sabhi Genres</option>
+                </select>
+            </div>
+            
+            <div class="filter-group">
+                <label for="authorFilter">Author (Lekhak)</label>
+                <select id="authorFilter">
+                    <option value="all">Sabhi Authors</option>
+                </select>
+            </div>
+            
+            <div class="filter-group">
+                <label for="minPrice">Min Price (₹)</label>
+                <input type="number" id="minPrice" min="0" step="10" placeholder="0">
+            </div>
+            
+            <div class="filter-group">
+                <label for="maxPrice">Max Price (₹)</label>
+                <input type="number" id="maxPrice" min="0" step="10" placeholder="2000">
+            </div>
+        </div>
+        
+        <div id="tableContainer">
+            <table id="bookTable">
+                <thead>
+                    <tr>
+                        <th>Kitab ka Naam</th>
+                        <th>Lekhak</th>
+                        <th>Genre</th>
+                        <th>Price (₹)</th>
+                        <th>Publication Date</th>
+                    </tr>
+                </thead>
+                <tbody id="bookTableBody">
+                    <tr>
+                        <td colspan="5" class="loading">Books load ho rahi hain...</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        
+        <div class="status" id="status">XML data load ho raha hai...</div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
