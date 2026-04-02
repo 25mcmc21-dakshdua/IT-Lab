@@ -1,0 +1,128 @@
+.table-container {
+  overflow-x: auto;
+  margin-bottom: 30px;
+  border-radius: 8px;
+  border: 1px solid #e0e0e0;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+thead {
+  background: #f9fafb;
+}
+
+th {
+  padding: 16px;
+  text-align: left;
+  font-weight: 600;
+  color: #374151;
+  border-bottom: 2px solid #e0e0e0;
+  cursor: pointer;
+  user-select: none;
+  transition: background 0.2s;
+}
+
+th:hover {
+  background: #f3f4f6;
+}
+
+th .sort-indicator {
+  margin-left: 8px;
+  font-size: 0.8rem;
+  opacity: 0.5;
+}
+
+th.sorted .sort-indicator {
+  opacity: 1;
+}
+
+td {
+  padding: 16px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+tbody tr {
+  transition: background 0.2s;
+}
+
+tbody tr:hover {
+  background: #f9fafb;
+}
+
+.badge {
+  display: inline-block;
+  padding: 4px 12px;
+  border-radius: 12px;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.badge-engineering { background: #dbeafe; color: #1e40af; }
+.badge-design { background: #fce7f3; color: #9f1239; }
+.badge-operations { background: #d1fae5; color: #065f46; }
+.badge-analytics { background: #fef3c7; color: #92400e; }
+.badge-hr { background: #e0e7ff; color: #3730a3; }
+.badge-content { background: #f3e8ff; color: #6b21a8; }
+.badge-research { background: #ccfbf1; color: #115e59; }
+.badge-sales { background: #ffedd5; color: #9a3412; }
+.badge-marketing { background: #fce7f3; color: #831843; }
+.badge-management { background: #fee2e2; color: #991b1b; }
+.badge-default { background: #f3f4f6; color: #374151; }
+
+.action-buttons {
+  display: flex;
+  gap: 8px;
+}
+
+.btn-icon {
+  padding: 8px 12px;
+  font-size: 0.9rem;
+}
+
+.btn {
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.btn-secondary {
+  background: #f5f5f5;
+  color: #333;
+}
+
+.btn-secondary:hover {
+  background: #e0e0e0;
+}
+
+.btn-danger {
+  background: #ef4444;
+  color: white;
+}
+
+.btn-danger:hover {
+  background: #dc2626;
+}
+
+@media (max-width: 768px) {
+  .table-container {
+    font-size: 0.9rem;
+  }
+
+  th, td {
+    padding: 12px 8px;
+  }
+
+  .action-buttons {
+    flex-direction: column;
+  }
+}
