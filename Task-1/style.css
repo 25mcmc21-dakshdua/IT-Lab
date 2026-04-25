@@ -1,0 +1,44 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f0f2f5;
+    font-family: 'Inter', sans-serif;
+}
+
+.grid-4x2 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); 
+    gap: 25px;
+}
+
+.feed-item {
+    background: #ffffff;
+    padding: 30px;
+    border: none;
+    border-top: 5px solid #007bff; /* Tech blue */
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    text-align: center;
+    transition: 0.3s;
+}
+
+.feed-item:hover {
+    transform: scale(1.03);
+    border-top-color: #ffb703; /* Swaps to Marigold gold on hover */
+}
+
+.sidebar {
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+}
+
+@media (min-width: 992px) {
+    .grid-4x2 {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}

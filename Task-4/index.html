@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Form Validation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <form id="regForm">
+            <h2>Registration Form</h2>
+
+            <div class="form-group">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" placeholder="Enter name">
+                <div id="nameErr" class="error"></div>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="email@example.com">
+                <div id="emailErr" class="error"></div>
+            </div>
+
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" placeholder="Min 8 characters">
+                <div class="strength-container">
+                    <div id="strengthBar"></div>
+                </div>
+                <div id="passErr" class="error"></div>
+            </div>
+
+            <div class="form-group">
+                <label for="dob">Date of Birth</label>
+                <input type="date" id="dob">
+                <div id="dobErr" class="error"></div>
+            </div>
+
+            <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="text" id="phone" placeholder="10 digits only">
+                <div id="phoneErr" class="error"></div>
+            </div>
+
+            <button type="submit" id="submitBtn">Register Now</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
