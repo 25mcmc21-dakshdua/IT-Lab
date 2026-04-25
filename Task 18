@@ -1,0 +1,10 @@
+8: Creating a RESTful API with Node.js and Testing with POSTMAN
+Objective: Build a RESTful API using Node.js and test it with POSTMAN.
+Task: Set up a Node.js server using Express to create a RESTful API that manages a list of products.
+• Implement CRUD operations: Create, Read, Update, Delete for the products, where each product
+has a name, description, price, and category.
+• Connect the API to a MongoDB or MySQL database to persist the product data.
+• Use POSTMAN to test all API endpoints, ensuring that each operation works correctly. Document
+the API using POSTMAN collections.
+• Add user authentication to the API using JWT, and ensure that only authenticated users can create,
+update, or delete products
